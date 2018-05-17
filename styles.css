@@ -77,7 +77,7 @@ nav ul li {
 	float: left;
 	color: white;
 	box-sizing: border-box;
-	width: 12.5%;
+	width: 11.11111%;
 	height: 60px;
 	text-align: center;
 	background: #0072D6;
@@ -1163,11 +1163,11 @@ footer ul#list3 {
 
 	/*---------NAV---------*/
 	nav ul li {
-		width: 12.5%;
+		width: 11.1111%;
 	}
 	
 	nav ul li.space {
-		width: 12.5%;
+		width: 11.1111%;
 	}
 
 }
