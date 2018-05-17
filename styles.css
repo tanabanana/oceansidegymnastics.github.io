@@ -528,6 +528,47 @@ section.events section.events_info p a {
 	text-decoration: none;
 }
 
+/*------------------------------------------------------------EVENTS PAGE------------------------------------------------------------*/
+section.camps {
+	background: rgba(0, 0, 0, 0.5);
+	width: 80%;
+	margin: 100px 10%;
+	padding: 1%;
+	box-shadow: 2px 2px 2px #161616;
+	box-sizing: border-box;
+}
+
+section.camps section.camps_info {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 2.5%;
+	background: white;
+	box-shadow: 2px 2px 2px #161616;
+	padding-bottom: 1%;
+}
+
+section.camps section.camps_info img { 
+	text-align: center;
+	width: 40%;
+	margin-left: 30%;
+}
+
+section.camps section.camps_info p {
+	text-align: left;
+	margin: 1% 10%;
+	line-height: 20pt;
+	clear: both;
+}
+
+section.camps section.camps_info p.center {
+	text-align: center;
+}
+
+section.camps section.camps_info p a {
+	color:  #0072D6;
+	text-decoration: none;
+}
+
 /*------------------------------------------------------------TEAM PAGE------------------------------------------------------------*/
 section.team {
 	background: rgba(0, 0, 0, 0.5);
