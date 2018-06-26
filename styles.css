@@ -528,7 +528,7 @@ section.events section.events_info p a {
 	text-decoration: none;
 }
 
-/*------------------------------------------------------------EVENTS PAGE------------------------------------------------------------*/
+/*------------------------------------------------------------CAMPS PAGE------------------------------------------------------------*/
 section.camps {
 	background: rgba(0, 0, 0, 0.5);
 	width: 80%;
@@ -592,9 +592,10 @@ section.team section.team_info {
 section.team section.team_info div.video {
 	position: relative;
 	padding-bottom: 56.25%;
-	width: 80%;
+	width: 30%;
 	margin-left: 10%;
 	margin-right: 10%;
+	float: left;
 }
 
 section.team section.team_info div.video iframe {
@@ -606,6 +607,7 @@ section.team section.team_info div.video iframe {
 section.team section.team_info p {
 	text-align: center;
 	margin: 1% 10%;
+	float: left;
 }
 
 section.team section.team_info p a {
