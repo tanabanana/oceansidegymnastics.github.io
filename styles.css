@@ -593,7 +593,7 @@ section.team section.team_info div.video {
 	position: relative;
 	padding-bottom: 27%;
 	width: 48%;
-	margin-left: 1% auto;
+	margin: 1% auto;
 }
 
 section.team section.team_info div.video iframe {
