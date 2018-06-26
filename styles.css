@@ -593,8 +593,7 @@ section.team section.team_info div.video {
 	position: relative;
 	padding-bottom: 27%;
 	width: 48%;
-	margin-left: 10%;
-	float: left;
+	margin-left: 1% auto;
 }
 
 section.team section.team_info div.video iframe {
@@ -606,8 +605,6 @@ section.team section.team_info div.video iframe {
 section.team section.team_info p {
 	text-align: center;
 	margin: 1% 10%;
-	float: left;
-	width: 24%;
 }
 
 section.team section.team_info p a {
@@ -896,22 +893,6 @@ footer ul#list3 {
 		height: 400px;
 		overflow: hidden;
 	}
-		
-	/*----------TEAM---------*/
-	section.team section.team_info div.video {
-		position: relative;
-		padding-bottom: 27%;
-		width: 48%;
-		margin-left: 10%;
-		float: left;
-	}
-
-	section.team section.team_info p {
-		text-align: center;
-		margin: 1% 10%;
-		float: left;
-		width: 24%;
-	}
 }
 
 /*--------------------MAX 1450-------------------*/
@@ -922,22 +903,7 @@ footer ul#list3 {
 		height: auto;
 		margin: 85px 10% 10px 10%;
 	}
-		
-	/*----------TEAM---------*/
-	section.team section.team_info div.video {
-		position: relative;
-		padding-bottom: 27%;
-		width: 48%;
-		margin-left: 10%;
-		float: left;
-	}
 
-	section.team section.team_info p {
-		text-align: center;
-		margin: 1% 10%;
-		float: left;
-		width: 24%;
-	}
 }
 
 
@@ -999,22 +965,6 @@ footer ul#list3 {
 		width: 80%;
 		margin: 100px 10%;
 	}
-
-	/*----------TEAM---------*/
-	section.team section.team_info div.video {
-		position: relative;
-		padding-bottom: 27%;
-		width: 48%;
-		margin-left: 10%;
-		float: left;
-	}
-
-	section.team section.team_info p {
-		text-align: center;
-		margin: 1% 10%;
-		float: left;
-		width: 24%;
-	}
 }
 
 /*--------------------MAX 1140-------------------*/
@@ -1063,22 +1013,6 @@ footer ul#list3 {
 		width: 90%;
 		margin: 2% 5%;
 		text-align: center;
-	}
-	
-	/*----------TEAM---------*/
-	section.team section.team_info div.video {
-		position: relative;
-		padding-bottom: 27%;
-		width: 48%;
-		margin-left: 10%;
-		float: left;
-	}
-
-	section.team section.team_info p {
-		text-align: center;
-		margin: 1% 10%;
-		float: left;
-		width: 24%;
 	}
 }
 
@@ -1145,23 +1079,6 @@ footer ul#list3 {
 		width: 90%;
 		margin: 100px 5%;
 	}
-	
-	/*----------TEAM---------*/
-	section.team section.team_info div.video {
-		position: relative;
-		padding-bottom: 27%;
-		width: 48%;
-		margin-left: 10%;
-		float: left;
-	}
-
-	section.team section.team_info p {
-		text-align: center;
-		margin: 1% 10%;
-		float: left;
-		width: 24%;
-	}
-	
 	
 	/*----------ABOUT---------*/
 	section.about section.about_info section {
@@ -1252,21 +1169,6 @@ footer ul#list3 {
 		padding: 2%;
 		width: 300px;
 	}
-	
-	/*----------TEAM---------*/
-	section.team section.team_info div.video {
-		position: relative;
-		padding-bottom: 27%;
-		width: 48%;
-		margin: 2% auto;
-		float: none;
-	}
-	
-	section.team section.team_info p {
-		width: 45%;
-		margin: 0% auto;
-	}
-
 	
 	/*----------FOOTER----------*/
 	footer {
