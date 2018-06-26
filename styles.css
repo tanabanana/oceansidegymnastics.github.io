@@ -1086,7 +1086,21 @@ footer ul#list3 {
 		margin: 100px 5%;
 	}
 	
-	
+	/*----------TEAM---------*/
+	section.team section.team_info div.video {
+		position: relative;
+		padding-bottom: 27%;
+		width: 48%;
+		margin-left: 10%;
+		float: left;
+	}
+
+	section.team section.team_info p {
+		text-align: center;
+		margin: 1% 10%;
+		float: left;
+		width: 24%;
+	}
 	
 	
 	/*----------ABOUT---------*/
