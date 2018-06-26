@@ -591,10 +591,9 @@ section.team section.team_info {
 
 section.team section.team_info div.video {
 	position: relative;
-	padding-bottom: 56.25%;
-	width: 30%;
+	padding-bottom: 27%;
+	width: 48%;
 	margin-left: 10%;
-	margin-right: 10%;
 	float: left;
 }
 
@@ -608,6 +607,7 @@ section.team section.team_info p {
 	text-align: center;
 	margin: 1% 10%;
 	float: left;
+	width: 24%;
 }
 
 section.team section.team_info p a {
@@ -1178,6 +1178,21 @@ footer ul#list3 {
 		padding: 2%;
 		width: 300px;
 	}
+	
+	/*----------TEAM---------*/
+	section.team section.team_info div.video {
+		position: relative;
+		padding-bottom: 27%;
+		width: 48%;
+		margin: 2% auto;
+		float: none;
+	}
+	
+	section.team section.team_info p {
+		width: 45%;
+		margin: 0% auto;
+	}
+
 	
 	/*----------FOOTER----------*/
 	footer {
