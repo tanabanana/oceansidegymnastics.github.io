@@ -428,12 +428,12 @@ section.classes section.classes_general ul#classes_list2 li {
 section.classes section.classes_general ul.classes_list li {
 	float: left;
 	font-size: 11pt;
-	margin-bottom: 1.25%;
+	margin-bottom: 0%;
 	text-align: center;
 	background: white;
-	padding: 1%;
+	padding: 1% 0%;
 	box-sizing: border-box;
-	height: 60px;
+	
 }
 
 section.classes section.classes_general ul.classes_list li a {
@@ -443,7 +443,7 @@ section.classes section.classes_general ul.classes_list li a {
 	text-decoration: none;
 	box-shadow: 2px 2px 2px gray;
 	text-shadow: 1px 1px 1px gray;
-	width: 160px;
+	width: 137px;
 	display: inline-block;
 	box-sizing: border-box;
 	line-height: 1.5em;
