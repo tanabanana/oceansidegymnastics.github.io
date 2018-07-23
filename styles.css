@@ -39,7 +39,7 @@ header a#logo {
 
 header p {
 	float: right;
-	text-shadow: 2px 2px 2px #AFAFAF;
+	text-shadow: 2px 2px 2px 2px #AFAFAF;
 }
 
 header p#email a {
