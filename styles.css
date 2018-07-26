@@ -1448,7 +1448,7 @@ body#test {
 /* Dropdown Button */
 .dropbtn {
 	color: white;
-	padding: 0px 10px;
+	padding: 10px 10px;
 	font-size: 16px;
 	box-sizing: border-box;
 	border: none;
