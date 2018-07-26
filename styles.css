@@ -1492,11 +1492,14 @@ body#test {
 
 
 
+div.clear {
+    float: none;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
-    float: clear;
 }
 
 /* Style the links inside the navigation bar */
