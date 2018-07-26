@@ -1481,7 +1481,7 @@ body#test {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: white;}
+.dropdown-content a:hover {background-color: #2B9CFF;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
