@@ -1450,11 +1450,8 @@ body#test {
 	color: white;
 	box-sizing: border-box;
 	width: 11.11111%;
-	height: 60px;
 	text-align: center;
 	background: #0072D6;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	list-style: none;
 	box-shadow: 0px 2px 0px 0px #232323;
 	text-shadow: 2px 2px 2px #353535;
