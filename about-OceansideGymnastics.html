@@ -2,11 +2,13 @@
 
 <html>
 <head>
-	<title>About Us - Oceanside Gymnastics</title>
+    <title>Team - Oceanside Gymnastics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 
@@ -22,33 +24,78 @@
 </header>
     
 <nav id="nav_bar">
-<ul>
-    <li class="space" ></li>
-    <li><a href="index.html" id="home" >Home</a></li>
-    <li class="dropdown" id-"classes">
-        <button class="dropbtn"><a href="classes-OceansideGymnastics.html">Classes</a></button>
-        <div class="dropdown-content">
-            <a href="classes-OceansideGymnastics.html#preschool">Pre-School</a>
-            <a href="classes-OceansideGymnastics.html#girlsrec">Girls Rec</a>
-            <a href="classes-OceansideGymnastics.html#boysrec">Boys Rec</a>
-            <a href="classes-OceansideGymnastics.html#tnt">TNT</a>
-            <a href="classes-OceansideGymnastics.html#faq">FAQs</a>
-            <a href="classes-OceansideGymnastics.html#forms">Forms</a>
-        </div>
-    </li>
-    <li><a href="events-OceansideGymnastics.html" id="events" >Parties/Events</a></li>
-    <li><a href="camps-OceansideGymnastics.html" id="camps" >Camps</a></li>
-    <li><a href="team-OceansideGymnastics.html" id="team" >Team</a></li>
-    <li><a href="t4t-OceansideGymnastics.html" id="t4t" >T4T Meet</a></li>
-    <li class="dropdown" id="about">
-        <button class="dropbtn"><a href="about-OceansideGymnastics.html">About Us</a></button>
-        <div class="dropdown-content">
-            <a href="about-OceansideGymnastics.html">Our Mission</a>
-            <a href="https://www.norberts.net/categories/Home-Use/Gifts-for-Gymnasts/?referrer=10740">Equipment</a>
-        </div>
-    </li>
-    <li class="space" ></li>
-</ul>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active" class="link" >Home</a>
+  <div class="dropdown" class="link" >
+    <button class="dropbtn" onclick="myFunction()">Classes
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="classes-OceansideGymnastics.html">General Info</a>
+      <a href="classes-OceansideGymnastics.html#preschool">Pre-School</a>
+      <a href="classes-OceansideGymnastics.html#girlsrec">Girls Rec</a>
+      <a href="classes-OceansideGymnastics.html#boysrec">Boys Rec</a>
+      <a href="classes-OceansideGymnastics.html#tnt">TNT</a>
+      <a href="classes-OceansideGymnastics.html#faq">FAQs</a>
+      <a href="classes-OceansideGymnastics.html#forms">Forms</a>
+    </div>
+  </div> 
+  <a href="events-OceansideGymnastics.html" class="link" >Parties/ Events</a>
+  <a href="camps-OceansideGymnastics.html" class="link" >Camps</a>
+  <a href="team-OceansideGymnastics.html" class="link" >Team</a>
+  <a href="t4t-OceansideGymnastics.html" class="link" >T4T Meet</a>
+  <div class="dropdown" class="link" >
+    <button class="dropbtn" onclick="myFunction()">About Us
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown2">
+      <a href="about-OceansideGymnastics.html">Our Mission</a>
+      <a href="https://www.norberts.net/categories/Home-Use/Gifts-for-Gymnasts/?referrer=10740">Equipment</a>
+    </div>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+  <a href="index.html"></a>
+  
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+function myFunction() {
+    document.getElementById("myDropdown2").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown2 = document.getElementById("myDropdown2");
+      if (myDropdown2.classList.contains('show')) {
+        myDropdown2.classList.remove('show');
+      }
+  }
+}
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
     </nav>
 
 <!--//////////CONTENT FOR ABOUT US//////////-->
