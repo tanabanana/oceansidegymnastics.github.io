@@ -678,6 +678,7 @@ section.events section.events_info p.center {
 section.events section.events_info p a {
 	color:  #0072D6;
 	text-decoration: none;
+	text-align: center;
 }
 
 /*------------------------------------------------------------CAMPS PAGE------------------------------------------------------------*/
