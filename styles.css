@@ -766,7 +766,7 @@ body.t4t_background {
 }
 
 header  a#logo.purple_logo {
-	background: url(images/purple_logo.png);
+	background: url(images/hearts.jpg);
 	float: left;
 	height: 200px;
 	width: 600px;
@@ -807,7 +807,7 @@ section.t4t section.t4t_info h3 {
 	text-align: center;
 	line-height: 75px;
 	margin: 5% auto;
-	color: black;
+	color: red;
 	text-transform: uppercase;
 }
 
@@ -817,14 +817,14 @@ section.t4t section.t4t_info img.t4t_logo {
 }
 
 section.t4t section.t4t_info h4 {
-	color: black;
+	color: purple;
 }
 
 section.t4t section.t4t_info h5 {
 	text-align: left;
 	margin: 1% 10%;
 	font-weight: 600;
-	color: darkslateblue;
+	color: red;
 	text-transform: uppercase;
 }
 
