@@ -762,11 +762,11 @@ section.team section.team_info p a {
 
 /*------------------------------------------------------------T4T PAGE------------------------------------------------------------*/
 body.t4t_background {
-	background: url(images/t4t_background.png);
+	background: url(images/hearts.jpg);
 }
 
 header  a#logo.purple_logo {
-	background: url(images/hearts.jpg);
+	background: url(images/logo.png);
 	float: left;
 	height: 200px;
 	width: 600px;
