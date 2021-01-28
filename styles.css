@@ -405,7 +405,7 @@ section.home div#home_announcements div.slideshow img {
 	background: white;
 }
 
-/*@keyframes announcements_slideshow {
+@keyframes announcements_slideshow {
 	0% {
 		opacity: 1;
 	}
@@ -424,15 +424,15 @@ section.home div#home_announcements div.slideshow img {
 	100% {
 		opacity: 1;
 	}
-}*/
+}
 
-/*section.home section#home_announcements img#image8 {
+section.home section#home_announcements img#image8 {
 	animation-name: announcements_slideshow;
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
 	animation-delay: 0s;
-}*/
-/* section.home section#home_announcements img#image7 {
+}
+ section.home section#home_announcements img#image7 {
 	animation-name: announcements_slideshow;
 	animation-duration: 35s;
 	animation-iteration-count: infinite;
@@ -478,7 +478,7 @@ section.home section#home_announcements img#image2 {
 	animation-duration: 35s;
 	animation-iteration-count: infinite;
 	animation-delay: 30s;
-}*/
+}
 
 
 /*
