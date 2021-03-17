@@ -60,11 +60,15 @@ header p#phone a {
 	text-decoration: none;
 }
 
-header img#usag_logo {
-	height: 11%;
+
+
+header p#portal a {
 	position: absolute;
-	top: 75px;
+	top: 45px;
 	right: 10%;
+	font-size: 15pt;
+	color: blue;
+	text-decoration: none;
 }
 
 /*------------------------------------------------------------NAV BAR------------------------------------------------------------*/
