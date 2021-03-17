@@ -64,10 +64,10 @@ header p#phone a {
 
 header p#portal a {
 	position: absolute;
-	top: 45px;
+	top: 75px;
 	right: 10%;
 	font-size: 15pt;
-	color: blue;
+	color: cornflowerblue;
 	text-decoration: none;
 }
 
