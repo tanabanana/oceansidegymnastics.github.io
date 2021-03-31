@@ -67,8 +67,12 @@ header p#portal a {
 	top: 75px;
 	right: 10%;
 	font-size: 15pt;
-	color: cornflowerblue;
+	color: white;
 	text-decoration: none;
+	padding: 5px;
+	text-shadow: 1px 1px 1px #262626;
+	border: dashed;
+	Background-color: royalblue;
 }
 
 /*------------------------------------------------------------NAV BAR------------------------------------------------------------*/
